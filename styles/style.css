@@ -11,31 +11,31 @@ header {
     display: block;
 }
 
-header>nav {
+header nav {
     padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header>nav>figure {
-    background-image: url("../images/spotify-logo.png");
-    background-repeat: no-repeat;
-    background-size: 160px;
+header img {
+    width: 160px;
+    height: auto;
+   
 }
 
-header>nav>ul {
+header ul {
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-header>nav>ul>li {
+header li {
     display: flex;
     margin-right: 12px;
 }
 
-header>nav>ul>li>a {
+header a {
     color: black;
     text-decoration: none;
 }
@@ -79,7 +79,7 @@ section {
     margin-right: 75px;
 }
 
-section>article {
+section article {
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -89,12 +89,6 @@ section>article {
     font-weight: 500;
 }
 
-section>span>article>figure1 {
-    background-image: url("../images/music-icon.png");
-    background-repeat: no-repeat;
-    background-size: 100px;
-    display: flex;
-}
 
 h4 {
     display: block;
@@ -109,44 +103,53 @@ p {
     width: 150px;
 }
 
-section>span>article>figure1>p {
+section>span>p {
     color: black;
     font-weight: 500;
     display: flex;
 }
 
-section>span>article>figure2>p {
-    color: black;
-    font-weight: 500;
-    display: flex;
-}
-
-section>span>article>figure3>p {
-    color: black;
-    font-weight: 500;
-    display: flex;
-}
 
 section>span {
     display: flex;
+   
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-section>span>article>figure2 {
-    background-image: url("../images/high-quality-icon.png");
+section div {
+   
+    flex-direction: column;
+}
+#milions div{
+    width: 70px;
+    height: 70px;
+    
+    background-image: url("../images/music-icon.png");
     background-repeat: no-repeat;
-    background-size: 100px;
-    display: flex;
+    background-size: cover;
+   
+    
 }
 
-section>span>article>figure3 {
+
+#music div{
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/high-quality-icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#stream div{
+    width: 70px;
+    height: 70px;
     background-image: url("../images/devices-icon.png");
     background-repeat: no-repeat;
-    background-size: 100px;
-    display: flex;
+    background-size: cover;
+   
 }
 
 section>h2 {
